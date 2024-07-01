@@ -19,7 +19,7 @@ export default function FeaturedScoresGrid() {
       <h2 className="text-sm font-medium text-gray-500">Recent Scores</h2>
       <ul role="list" className="mt-3 grid grid-cols-2 gap-2 sm:gap-6 lg:grid-cols-4">
         {projects.map((project) => (
-          <li key={project.name} className="col-span-1 flex shadow-sm">
+          <li key={project.name} className="col-span-1 flex rounded-lg shadow-sm">
             <div className="flex flex-1 items-center justify-between truncate sm:text-base text-xs border rounded-lg p-2 border-gray-200 bg-white">
               <div className='flex flex-col font-semibold'>
                 <div className='flex'>

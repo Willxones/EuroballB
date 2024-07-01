@@ -37,7 +37,8 @@ export default function Header() {
         </div>
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img className="h-10 w-auto" src={logo} alt="" />
+          {/*<img className="h-10 w-auto" src={logo} alt="" />*/}
+          <h1 className='h-10 text-3xl font-extrabold'>Euroball</h1>
         </a>
         <div className="flex flex-1 justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
