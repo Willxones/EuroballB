@@ -4,10 +4,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo.png'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'News', href: '#' },
-  { name: 'Scores', href: '#' },
-  { name: 'Standings', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'News', href: 'news' },
+  { name: 'Scores', href: 'scores' },
+  { name: 'Standings', href: 'standings' },
 ]
 
 export default function Header() {
@@ -41,7 +41,7 @@ export default function Header() {
           <h1 className='h-10 text-3xl font-extrabold'>Euroball</h1>
         </a>
         <div className="flex flex-1 justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="login" className="text-sm font-semibold leading-6 text-gray-900">
             Log in
           </a>
         </div>

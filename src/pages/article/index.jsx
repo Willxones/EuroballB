@@ -6,7 +6,6 @@ export default function Article() {
     return (
         <Layout>
             <ArticleContent/>
-            <RecentlyViewedArticles/>
         </Layout>
     )
 }

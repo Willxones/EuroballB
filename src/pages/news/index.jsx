@@ -10,7 +10,6 @@ export default function News() {
             <FeaturedLeagueSelector/>
             <ArticleSearchBar/>
             <NewsList/>
-            <RecentlyViewedArticles/>
         </Layout>
     )
 }
