@@ -18,7 +18,7 @@ function App() {
               <Route path='news' Component={News}/>
               <Route path='scores' Component={Scores}/>
               <Route path='standings' Component={Standings}/>
-              <Route path='article' Component={Article}/>
+              <Route path='article/:id' Component={Article} />
               <Route path='login' Component={Login}/>
               <Route path='register' Component={Register}/>
             </Routes>                    

@@ -1,4 +1,4 @@
-import FeaturedLeagueSelector from "./FeaturedLeagueSelector"
+import LeagueSelector from "./LeagueSelector"
 
 const people = [
     { name: 'Lindsay Walton', title: 'Front-end Developer', email: 'lindsay.walton@example.com', role: 'Member' },
@@ -22,7 +22,7 @@ const people = [
             </p>
         <div className="sm:flex sm:items-center">
           <div className="sm:flex-auto">
-            <FeaturedLeagueSelector/>
+            <LeagueSelector/>
           </div>
         </div>
         <div className="mt-3 flow-root">

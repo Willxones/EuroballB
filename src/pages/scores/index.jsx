@@ -1,4 +1,4 @@
-import FeaturedLeagueSelector from "../../components/FeaturedLeagueSelector";
+import LeagueSelector from "../../components/LeagueSelector";
 import Layout from "../../components/Layout";
 import RecentlyViewedArticles from "../../components/RecentlyViewedArticles";
 import ScoresTable from "../../components/ScoresTable";
@@ -9,7 +9,7 @@ export default function Scores() {
         <Layout>
             <div className="flex md:flex-row flex-col gap-4">
             <div className="md:w-1/2">
-            <FeaturedLeagueSelector/>
+            <LeagueSelector/>
             </div>
             <div className="md:w-1/2">
             <WeekSelector/>

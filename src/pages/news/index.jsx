@@ -1,5 +1,5 @@
 import ArticleSearchBar from "../../components/ArticleSearchBar";
-import FeaturedLeagueSelector from "../../components/FeaturedLeagueSelector";
+import LeagueSelector from "../../components/LeagueSelector";
 import Layout from "../../components/Layout";
 import NewsList from "../../components/NewsList";
 import RecentlyViewedArticles from "../../components/RecentlyViewedArticles";
@@ -7,8 +7,9 @@ import RecentlyViewedArticles from "../../components/RecentlyViewedArticles";
 export default function News() {
     return (
         <Layout>
-            <FeaturedLeagueSelector/>
+            <LeagueSelector/>
             <ArticleSearchBar/>
+            <div className="h-8"></div>
             <NewsList/>
         </Layout>
     )

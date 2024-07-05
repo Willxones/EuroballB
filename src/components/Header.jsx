@@ -5,9 +5,9 @@ import logo from '../assets/logo.png'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'News', href: 'news' },
-  { name: 'Scores', href: 'scores' },
-  { name: 'Standings', href: 'standings' },
+  { name: 'News', href: '/news' },
+  { name: 'Scores', href: '/scores' },
+  { name: 'Standings', href: '/standings' },
 ]
 
 export default function Header() {
